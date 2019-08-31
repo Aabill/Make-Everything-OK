@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hepta Slab', serif;
+    background-color: #3d3d3d;
+}
+
+
+
+.btn {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(36, 36, 36);
+    color: #888;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    transition: .4s ease;
+}
+
+
+.btn:active{
+    top: 50.5%;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    transition: .1s ease-in-out;
+    background-color: rgb(207, 207, 207);
+        color: #0c0c0c;
+}
+
+.progressbar {
+    display: none;
+    position:relative;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #b8b8b8;
+    
+}
+
+.progressbar > span{
+    position: absolute;
+    height: 100%;
+    background-color: #2a4694;
+    
+}
+
+
+.ok {
+    display:flex;
+    /* position: absolute;
+    
+    transform: translate(-50%,-50%); */
+   /*  background-color: #837c7c; */
+    /* height: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    width:400px; */
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+   /*  box-shadow: 15px 15px 5px 0px rgba(0,0,0,0.75); */
+    animation: oppa 3s ease;
+    
+    
+}
+
+#E {
+    position: absolute;
+    top: 15vh;
+    left: 25vw;
+}
+#I {
+    position: absolute;
+    top: 53vh;
+    left: 75vw;
+
+    
+}
+#O {
+    position: absolute;
+    top: 60vh;
+    left: 49vw;
+    
+    
+}
+#N {
+    position: absolute;
+    top: 42vh;
+    left: 60vw;
+
+    
+}
+
+@keyframes oppa {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

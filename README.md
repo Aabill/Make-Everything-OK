@@ -2,4 +2,4 @@
 css, js practice
 
 
-View it here at https://aabill.github.com/Make-Everything-OK
+View it here at https://aabill.github.io/Make-Everything-OK
